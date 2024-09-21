@@ -16,3 +16,11 @@
         justify-content: space-between;  /* Spaces out the sections */
     }
 }
+/* Import Google Fonts for custom typography */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+/* Apply the custom font to the entire page */
+body {
+    font-family: 'Lato', sans-serif;   /* Sets Lato as the primary font */
+    line-height: 1.6;                 /* Increases line height for readability */
+}
