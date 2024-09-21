@@ -42,3 +42,8 @@ body {
         font-size: 20px;  /* Larger font for desktop screens */
     }
 }
+/* Ensures high contrast between text and background for better readability */
+body {
+    background-color: #ffffff;   /* White background */
+    color: #333333;              /* Dark gray text for good contrast */
+}
