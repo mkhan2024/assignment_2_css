@@ -1,0 +1,18 @@
+/* Container for all sections of the resume */
+.container {
+    display: flex;               /* Enables Flexbox layout */
+    flex-direction: column;      /* Stacks the elements vertically */
+    align-items: center;         /* Horizontally centers the elements */
+    justify-content: center;     /* Vertically centers the elements */
+    padding: 20px;               /* Adds space around the content */
+    margin: 0 auto;              /* Centers the container on the page */
+    max-width: 1200px;           /* Limits the maximum width for readability */
+}
+
+/* Main layout for larger screens */
+@media only screen and (min-width: 768px) {
+    .container {
+        flex-direction: row;     /* Switches to horizontal layout on larger screens */
+        justify-content: space-between;  /* Spaces out the sections */
+    }
+}
